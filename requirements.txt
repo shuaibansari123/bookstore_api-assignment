@@ -1,0 +1,29 @@
+aiohttp
+aiosignal
+annotated-types
+anyio
+asgiref
+asyncio
+attrs
+bcrypt
+beautifulsoup4
+bs4
+certifi
+cffi
+charset-normalizer
+click
+colorama
+cryptography
+defusedxml
+dhanhq
+distlib
+Django      
+djangorestframework # use your desired version
+#psycopg2-binary==2.9.3   # gives error in window instead of psycopg2
+drf-yasg       
+python-decouple  
+django-filter      
+pytz 
+factory_boy
+pytest
+pytest-django
