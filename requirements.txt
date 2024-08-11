@@ -1,29 +1,46 @@
-aiohttp
-aiosignal
-annotated-types
-anyio
-asgiref
-asyncio
-attrs
-bcrypt
-beautifulsoup4
-bs4
-certifi
-cffi
-charset-normalizer
-click
-colorama
-cryptography
-defusedxml
-dhanhq
-distlib
-Django      
-djangorestframework # use your desired version
-#psycopg2-binary==2.9.3   # gives error in window instead of psycopg2
-drf-yasg       
-python-decouple  
-django-filter      
-pytz 
-factory_boy
-pytest
-pytest-django
+# aiohttp
+# aiosignal
+# annotated-types
+# anyio
+# asgiref
+# asyncio
+# attrs
+# bcrypt
+# beautifulsoup4
+# bs4
+# certifi
+# cffi
+# charset-normalizer
+# click
+# colorama
+# cryptography
+# defusedxml
+# dhanhq
+# distlib
+# Django      
+# djangorestframework # use your desired version
+# #psycopg2-binary==2.9.3   # gives error in window instead of psycopg2
+# drf-yasg       
+# python-decouple  
+# django-filter      
+# pytz 
+# factory_boy
+# pytest
+# pytest-django
+
+
+asgiref==3.8.1
+Django==5.1
+django-environ==0.11.2
+django-filter==24.3
+djangorestframework==3.15.2
+drf-yasg==1.21.7
+inflection==0.5.1
+packaging==24.1
+pytz==2024.1
+PyYAML==6.0.2
+setuptools==72.1.0
+sqlparse==0.5.1
+tzdata==2024.1
+uritemplate==4.1.1
+wheel==0.44.0
