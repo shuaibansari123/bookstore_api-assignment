@@ -1,17 +1,17 @@
-Django Bookstore API
+**Django Bookstore API**
 This is a Django-based RESTful API for a bookstore, featuring custom user authentication, advanced filtering, searching, pagination, and detailed logging. The application includes models for Author, Book, Customer, and Order, and is equipped with custom exception handling, caching, and Swagger API documentation.
 
-Features
-Custom Authentication: Utilizes a custom user model (Customer) with email-based authentication.
-Custom Managers: Includes CustomerManager for user creation and management.
-Custom Mixins: Provides CustomLoggingMixin for request logging and CustomerPagination for pagination.
-Custom Exception Handling: Implements CustomNotFoundException for better error management.
-Advanced Filtering and Searching: Employs DjangoFilterBackend, SearchFilter, and OrderingFilter.
-Indexing: Optimized database queries with custom indexes.
-Pagination: Implements custom pagination with CustomerPagination.
-Swagger API Documentation: Automated API documentation using Swagger.
-Caching: (Placeholder) Future plans to integrate caching for improved performance.
-Logging: Detailed request and operation logging.
+**Features**
+**Custom Authentication**: Utilizes a custom user model (Customer) with email-based authentication.
+**Custom Managers**: Includes CustomerManager for user creation and management.
+**Custom Mixins**: Provides CustomLoggingMixin for request logging and CustomerPagination for pagination.
+**Custom Exception Handling**: Implements CustomNotFoundException for better error management.
+**Advanced Filtering and Searching**: Employs DjangoFilterBackend, SearchFilter, and OrderingFilter.
+**Indexing**: Optimized database queries with custom indexes.
+**Pagination**: Implements custom pagination with CustomerPagination.
+**Swagger API Documentation**: Automated API documentation using Swagger.
+**Caching**: (Placeholder) Future plans to integrate caching for improved performance.
+**Logging**: Detailed request and operation logging.
 
 
 Endpoints
@@ -31,7 +31,7 @@ Books
     GET /books/{id}/: Retrieve a book
     PUT /books/{id}/: Update a book
     DELETE /books/{id}/: Delete a book
-    GET /books/search/: Search for books by title
+    GET **/books/search/**: Search for books by title
 
 Customers
     GET /customers/: List all customers
